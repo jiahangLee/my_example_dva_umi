@@ -1,4 +1,4 @@
-import request from '../utils/request';
+import request from '../utils/user';
 
 export function query() {
   return request('/api/users');
